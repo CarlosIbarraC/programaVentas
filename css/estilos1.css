@@ -1,0 +1,258 @@
+* {
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body {
+	font-size: 16px;
+	font-family: 'Slabo 27px', serif;
+	
+	color:#fff;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Slabo 27px', serif;
+	font-weight: normal;
+}
+
+a {
+	text-decoration: none;
+	color:#fff;
+}
+a.derecha,a.izquierda{
+	color:#e7541e;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+.contenedor {
+	max-width: 1000px;
+	width: 90%;
+	margin: auto;
+}
+.logoc{
+	background: #f6dbc4;
+    padding-left: 20px;
+    color: #b77901;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.titulo {
+	background-color:#e7541e ;
+	font-weight: 300;
+	color: #f6dbc4 !important;
+	text-align: center;
+    padding: 25px 25px;
+    margin-bottom: 0px !important;
+}
+.izquierda {
+	float: left;
+}
+
+.derecha {
+	float: right;
+}
+
+/* --- Header ---*/
+
+header {
+	margin: 40px 0;
+	font-size: 20px;
+	text-align: center;
+}
+
+/* --- FOTOS --- */
+.fotos .contenedor {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.thumb {
+	width: 22%;
+	margin-bottom: 30px;
+	outline:5px solid rgba(255,255,255,0);
+	-webkit-box-shadow: 2px 2px 3px rgba(0,0,0,.8);
+	box-shadow: 2px 2px 3px rgba(0,0,0,.8);
+	-webkit-transition: all .3s ease;
+	-o-transition: all .3s ease;
+	transition: all .3s ease;
+}
+
+.thumb:hover {
+	outline:5px solid rgba(255,255,255,1);
+}
+
+.thumb a {
+	display: block;
+}
+
+.thumb img {
+	vertical-align: top;
+	width: 100%;
+}
+
+/* --- Single Foto --- */
+.foto {
+	width: 100%;
+	margin: auto;
+	max-width: 500px;
+	text-align: center;
+}
+
+.foto img {
+	width: 100%;
+	vertical-align: top;
+	-webkit-box-shadow: 2px 2px 3px rgba(0,0,0,.8);
+	box-shadow: 2px 2px 3px rgba(0,0,0,.8);
+	margin-bottom: 30px;
+}
+
+.foto .texto {
+	max-width: 500px;
+	margin-bottom: 30px;
+}
+
+.regresar {
+	padding: 5px 10px;
+	margin-bottom: 30px;
+	display: inline-block;
+	border-radius: 50px;
+	font-size: 16px;
+	border:1px solid rgba(255,255,255,.2);
+	-webkit-transition: all .3s ease;
+	-o-transition: all .3s ease;
+	transition: all .3s ease;
+}
+
+.regresar:hover {
+	border:1px solid #fff;
+	text-decoration: none;
+}
+
+.regresar .fa {
+	margin-right: 15px;
+}
+
+/* --- Footer --- */
+
+footer .copyright {
+	text-align: center;
+	color:rgba(255,255,255,.5);
+	font-size: 16px;
+	padding: 15px 0;
+}
+
+/* --- Paginacion --- */
+
+.paginacion {
+	width: 100%;
+	margin-bottom: 30px;
+	overflow: hidden;
+}
+
+.paginacion a{
+	display: inline-block;
+	padding: 15px 20px;
+	border-radius: 50px;
+	border:1px solid #F7F4F4;
+	-webkit-transition: all .3s ease;
+	-o-transition: all .3s ease;
+	transition: all .3s ease;
+}
+
+.paginacion a:hover {
+	border:1px solid #F4C00A;
+	text-decoration: none;
+}
+
+.paginacion .izquierda .fa {
+	margin-right: 10px;
+}
+
+.paginacion .derecha .fa {
+	margin-left: 10px;
+}
+
+/* --- Formulario --- */
+ .formulario2 {
+	max-width: 500px;
+	width:90%;
+	margin: auto;
+	margin-bottom: 30px;
+}
+
+ .formulario2 label {
+	display: block;
+	margin-bottom: 10px;
+}
+
+ .formulario2 .error {
+	border: 1px solid red;
+	padding: 30px;
+	margin-bottom: 30px;
+	background: #95D3B8;
+}
+
+ .formulario2 input[type="text"],
+ .formulario2 input[type="file"],
+ .formulario2 textarea {
+	width: 100%;
+	margin-bottom: 30px;
+	
+}
+
+ .formulario2 input[type="text"],
+ .formulario2 textarea {
+	padding: 10px;
+	background: #8EABAB;
+	font-family: 'Slabo 27px', serif;
+	border:1px solid rgba(255,255,255,.2);
+}
+
+ .formulario2 textarea {
+	min-height: 76px;
+	max-height: 150px; 
+	max-width: 100%;
+	min-width: 100%;
+}
+
+ .formulario2 textarea:focus {
+	border:1px solid rgba(255,255,255, .5);
+}
+
+ .formulario2 .submit{
+	display: inline-block;
+	text-align: center;
+	color:#000;
+	padding: 10px 20px;
+	border-radius: 10px;
+	border:1px solid rgba(255,255,255,.2);
+	background: #8EABAB;
+	cursor: pointer;
+	-webkit-transition: all .3s ease;
+	-o-transition: all .3s ease;
+	transition: all .3s ease;
+}
+
+ .formulario2 .submit:hover {
+	border:1px solid rgba(255,255,255,1);
+}
+h6.letracolor{
+
+	font-size:16PX;
+	color:#B8711B !important;
+}
+@media screen and (max-width: 700px){
+h6.letracolor{
+
+	font-size:11PX;
+	color:#B8711B !important;
+}
+}

@@ -1,0 +1,149 @@
+* {
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body {
+	font-size: 16px;
+	font-family: 'Raleway', sans-serif;	
+	color:#000;
+	background: #fce9d9 !important;
+}
+.logoc{
+	background: #f6dbc4;
+	padding-left: 20px;
+	color: #b77901;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	
+}
+.logoB{
+	background: #fce9d9;
+	padding-left: 20px;
+	color: #b77901;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	
+}
+
+ .logoH{
+	
+	background:#f5b810 ;
+	color: rgb(131, 66, 17);
+	/* border:1px solid #f6dbc4 !important; */
+}
+td{
+	border-bottom:1px solid #8d715b !important;
+	border-right:1px solid #caac48 !important;
+}
+p{
+	color: #FFF;
+}
+
+.contenedor {
+	 
+	width: 90%;
+	margin: auto;
+
+}
+.formularioVentas{
+	display: none;
+}
+
+.titulo {
+	background-color:#e7541e ;
+	font-weight: 300;
+	color: #f6dbc4 !important;
+	text-align: center;
+    padding: 25px 25px;
+    margin-bottom: 0px !important;
+}
+h1{
+	color:#B8711B; 
+}
+
+
+a{
+	color: #4040a1;
+	padding: 5px 5px;
+	width: 20%;
+	
+}
+h3{
+	color: #fff;
+	padding: 5px 5px;
+	margin-top: 15px;
+}
+ h5 .h5 {
+	color: #fff;
+}
+.til{
+	color: #000;
+}
+.inp{
+	 text-align: right;
+    display: block;
+    padding: 5px;
+    font-size: 11px;
+    font-weight: bold;
+    color: white;
+    background-color:#36486b;
+    border-radius: 2px;
+}
+button{
+	width: 18%;
+	background:#4040a1 ;
+	height: 25px;
+	color: #fff;
+}
+
+.btnc{
+
+	margin-bottom: 20PX;
+
+}
+.btn{
+	width: 180PX;
+}
+a.cerrar{
+	color: 	#FFFFE0;
+	padding: 5px 5px;
+	background:  #36486b;
+	border-bottom: 5px solid #B8711B;
+	margin-bottom: 15px;
+	border-radius: 2px;
+    
+}
+.negro{
+	color: #000;
+}
+.sombra td{
+	background: #BDB76B;
+}
+.fa {
+	font-size: 22px;
+}
+
+.header {
+    color: #787878;
+    font-size: 27px;
+    padding: 10px;
+}
+
+.bigicon {
+    font-size: 28px;
+    color: #787878;
+}
+ 
+a .fa-file-alt,  .fa-edit ,.fa-times{
+	color:#e7541e !important;
+}
+path{
+	color:#E35220 !important;
+}
+input.fechaVentas{
+	background-color: #f0dbcc ;
+}
